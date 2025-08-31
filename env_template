@@ -1,0 +1,15 @@
+# API Keys Configuration for My_API Provider
+# Copy this file to .env and fill in your actual API keys
+
+# OpenAI compatible models
+MY_API_OPENAI_KEY=sk-j926irGpuIGjwJvCCJ9nNl8ErqO6DDpLXp9uqtvUAQvDjvJQ
+
+# Claude models  
+MY_API_CLAUDE_KEY=sk-TuNMpelZ5n6KGd8gvZbUqWxV6b0XYwEnsTsewlRR0nOqCxWA
+
+# Gemini models
+MY_API_GEMINI_KEY=sk-80cM83a5oNcVL3rK5UgA1vUSKucLe0C5DFbaRNQdD1aW9RCk
+
+# Legacy API Keys (keep these for backward compatibility)
+OPENAI_API_KEY=your_openai_api_key_here
+OPENROUTER_API_KEY=your_openrouter_api_key_here
