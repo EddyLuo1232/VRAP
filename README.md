@@ -24,13 +24,9 @@
   <img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow.svg?style=flat-square&logo=huggingface" alt="Hugging Face">
 </a>
 
-  <a href="https://github.com/lutianyu2001/DoxBench">
-  <img src="https://img.shields.io/github/stars/lutianyu2001/DoxBench?style=flat-square&logo=github" alt="GitHub stars">
 </a>
 
   <img src="https://img.shields.io/badge/Model-Type%3A%20MLRM%20%2F%20MLLM-yellowgreen?style=flat-square">
-  <img src="https://img.shields.io/badge/Dataset-DoxBench-orange?style=flat-square">
-  <img src="https://img.shields.io/badge/Last%20Updated-June%202025-brightgreen?style=flat-square">
 </p>
 
 ## Abstract
