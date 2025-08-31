@@ -1,5 +1,37 @@
-# Computer-Use Agent Frameworks Can Expose Real-World Risks Through Tactics, Techniques, and Procedures
+<h2 align="center"> <a>⛓‍💥 Computer-Use Agent Frameworks Can Expose Real-World Risks Through Tactics, Techniques, and Procedures</a></h2>
 
+<div align="center">
+  <a href="http://doxbench.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20LAUNCH%20PROJECT%20PAGE-Doxing%20via%20the%20Lens-8b5cf6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSIjZmZmZmZmIi8+Cjwvc3ZnPgo=&logoColor=white&labelColor=4c1d95&color=8b5cf6" alt="Launch Project Page" />
+  </a>
+  <br/>
+  <sub>👆 Click to explore</sub>
+</div>
+
+<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for latest update.  </h5>
+
+<h5 align="center">
+
+[Weidi Luo*](https://eddyluo1232.github.io/), [Qiming Zhang](https://scholar.google.com/citations?user=hgu_aPwAAAAJ&hl=en), [Tianyu Lu](https://scholar.google.com/citations?user=kkiCj18AAAAJ&hl=en), [Xiaogeng Liu](https://xiaogeng-liu.com/), [Bin Hu](https://bin-hu.com/), [Hung-Chun CHIU](https://qhjchc.notion.site/), [Siyuan Ma](https://scholar.google.com/citations?user=GSTUhwcAAAAJ&hl=zh-CN)
+
+[Zhen Xiang](https://zhenxianglance.github.io/), [Chaowei Xiao](https://xiaocw11.github.io/)
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2504.19373">
+  <img src="https://img.shields.io/badge/ArXiv-2504.19373-b31b1b.svg?style=flat-square&logo=arxiv" alt="arXiv">
+</a>
+  <a href="https://huggingface.co/datasets/DoxxingTeam/DoxBench">
+  <img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow.svg?style=flat-square&logo=huggingface" alt="Hugging Face">
+</a>
+
+  <a href="https://github.com/lutianyu2001/DoxBench">
+  <img src="https://img.shields.io/github/stars/lutianyu2001/DoxBench?style=flat-square&logo=github" alt="GitHub stars">
+</a>
+
+  <img src="https://img.shields.io/badge/Model-Type%3A%20MLRM%20%2F%20MLLM-yellowgreen?style=flat-square">
+  <img src="https://img.shields.io/badge/Dataset-DoxBench-orange?style=flat-square">
+  <img src="https://img.shields.io/badge/Last%20Updated-June%202025-brightgreen?style=flat-square">
+</p>
 
 ## Abstract
 Computer-use agent (CUA) frameworks have repeatedly been shown to be vulnerable to jailbreaks, adversarial prompts, and prompt injection. These failures can manipulate CUA frameworks to execute malicious actions or deviate from the user’s intent. However, most evaluations still rely on naive direct, or subjective malicious tasks (e.g., Delete all files or Downloading risk link), which
