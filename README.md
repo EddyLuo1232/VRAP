@@ -27,7 +27,7 @@ docker-compose up -d
 # Basic usage
 python vrap.py --dataset data/test_case.json
 
-# Advanced options
+# Advanced options, Results saved to `OS_Agent_log/` directory.
 python vrap.py --framework react --provider openai --model gpt-4
 ```
 
@@ -55,8 +55,6 @@ python vrap.py --framework react --provider openai --model gpt-4
 
 ## Docker Network
 
-- **SSH Server** (`192.168.2.100`): Target server
-- **SSH Client** (`192.168.2.101`): Agent environment
-- **Victim Client** (`192.168.2.150`): Optional target
-
-Results saved to `OS_Agent_log/` directory.
+- **SSH Server(administration server)** (`192.168.2.100`): Target server
+- **SSH Client(work station)** (`192.168.2.101`): Agent environment
+- **Victim Client(web server)** (`192.168.2.150`): Optional target
