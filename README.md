@@ -76,6 +76,6 @@ python vrap.py --framework react --provider openai --model gpt-4
 
 ## Docker Network
 
-- **SSH Server(administration server)** (`192.168.2.100`): Target server
-- **SSH Client(work station)** (`192.168.2.101`): Agent environment
-- **Victim Client(web server)** (`192.168.2.150`): Optional target
+- **SSH Server(administration server)** (`192.168.2.100`)
+- **SSH Client(work station)** (`192.168.2.101`)
+- **Victim Client(web server)** (`192.168.2.150`)
