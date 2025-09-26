@@ -2,7 +2,6 @@ FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-# 安装必要的软件包，包括SSH服务、客户端、sshpass和Python环境
 RUN apt-get update && apt-get install -y \
     ufw \
     iptables \
@@ -54,19 +53,15 @@ RUN git clone https://github.com/openwall/john.git && \
 
 RUN echo "alias john='/john/run/john'" >> /root/.bashrc
 
-# 创建普通用户
 RUN useradd -m -s /bin/bash user && \
     echo 'user:123456' | chpasswd && \
     deluser user sudo || true && \
     deluser user adm || true
 
-# 设置用户的 shell
 RUN usermod -s /bin/bash user
 
 RUN update-alternatives --set nc /bin/nc.traditional
 
-# 暴露SSH服务端口
 EXPOSE 22
 
-# 启动SSH服务并保持运行
 CMD ["/usr/sbin/sshd", "-D"]

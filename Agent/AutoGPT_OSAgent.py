@@ -710,7 +710,7 @@ class AutoGPT_OSAgent(OSAgent):
     ✅ Comprehensive logging and error handling
     """
     
-    def __init__(self, model_name: str, provider_name: str = 'my_api'):
+    def __init__(self, model_name: str, provider_name: str = 'openrouter'):
         super().__init__(model_name)
         
         # Container setup - will be set when run() is called

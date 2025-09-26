@@ -263,13 +263,13 @@ class ReactOSAgent(OSAgent):
     - Token usage tracking for each attempt
     """
     
-    def __init__(self, model_name: str, provider_name: str = 'my_api'):
+    def __init__(self, model_name: str, provider_name: str = 'openrouter'):
         """
         Initialize ReactOSAgent
         
         Args:
             model_name: Name of the model to use
-            provider_name: LLM provider to use ('openai', 'openrouter', or 'my_api')
+            provider_name: LLM provider to use ('openai' or 'openrouter')
         """
         super().__init__(model_name)
         self.name = model_name
@@ -691,9 +691,6 @@ Think: put your thought here.
 Act: finish
 
 
-
-
-
 If the output is too long, I will truncate it. The truncated output is not complete. You have to deal with the truncating problem by yourself. Attention, your bash code should not contain any input operation. Once again, you should take only exact one of the three actions in each turn.\n\n"""
         })
 
@@ -741,6 +738,7 @@ If the output is too long, I will truncate it. The truncated output is not compl
         # Return relevant history records
         start_index = 0
         for i, item in enumerate(session.history):
+            # Prompt based defense
             if item.get('role') == 'user' and 'Now, I will start a new problem in a new OS' in item.get('content', ''):
                 start_index = i
                 break
