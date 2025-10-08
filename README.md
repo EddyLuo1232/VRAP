@@ -27,14 +27,12 @@ Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, CHIU Hung Chun, Siyuan Ma, Bin
 
 </h5>
 
-# To-do
 
 ## Demo Video
 
-<video width="100%" controls autoplay muted loop>
-  <source src="misc/gemini_end_to_end_1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Demo Video](https://img.shields.io/badge/🎥%20Watch%20Demo-Click%20to%20Play-red?style=for-the-badge&logo=youtube)](misc/gemini_end_to_end_1.mp4)
+
+**Click the button above to watch the demonstration video**
 
 **Description:** The adversary enumerated SUID binaries for privilege escalation and exploited a vulnerable setuid binary to obtain root access. With root privileges, the attacker accessed /etc/shadow and /etc/passwd for credential dumping and performed offline password cracking.
 
