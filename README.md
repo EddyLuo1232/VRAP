@@ -1,8 +1,8 @@
 
-<h2 align="center"> <a>⛓‍💥 Computer-Use Agent Frameworks Can Expose Realistic Risks Through Tactics, Techniques, and Procedures</a></h2>
+<h2 align="center"> <a>⛓‍💥 Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent</a></h2>
 
 <div align="center">
-  <a href="https://advcua.github.io/" target="_blank">
+  <a href="https://eddyluo.com/AdvCUA/" target="_blank">
     <img src="https://img.shields.io/badge/🚀%20LAUNCH%20PROJECT%20PAGE-AdvCUA-8b5cf6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSIjZmZmZmZmIi8+Cjwvc3ZnPgo=&logoColor=white&labelColor=4c1d95&color=8b5cf6" alt="Launch Project Page" />
   </a>
   <br/>
@@ -16,13 +16,19 @@
 Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, CHIU Hung Chun, Siyuan Ma, Bin Hu, Yizhe Zhang, Xusheng Xiao, Yinzhi Cao, Zhen Xiang, Chaowei Xiao
 
 <p align="center">
-  <a href="https://huggingface.co/datasets/advcua/AdvCUA">
+<a href="https://arxiv.org/abs/2510.06607">
+  <img src="https://img.shields.io/badge/ArXiv-2510.06607-b31b1b.svg?style=flat-square&logo=arxiv" alt="arXiv">
+</a>
+  <a href="https://huggingface.co/datasets/DoxxingTeam/AdvCUA">
   <img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow.svg?style=flat-square&logo=huggingface" alt="Hugging Face">
+</a>
+<a href="https://github.com/EddyLuo1232/VRAP">
+  <img src="https://img.shields.io/github/stars/EddyLuo1232/VRAP?style=flat-square&logo=github" alt="GitHub stars">
 </a>
 
   <img src="https://img.shields.io/badge/Model-Type%3A%20Computer%20Use%20Agent-yellowgreen?style=flat-square">
   <img src="https://img.shields.io/badge/Dataset-AdvCUA-orange?style=flat-square">
-  <img src="https://img.shields.io/badge/Last%20Updated-September%202025-brightgreen?style=flat-square">
+  <img src="https://img.shields.io/badge/Last%20Updated-October%202025-brightgreen?style=flat-square">
 </p>
 
 </h5>
