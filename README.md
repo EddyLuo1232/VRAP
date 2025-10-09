@@ -28,13 +28,21 @@ Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, CHIU Hung Chun, Siyuan Ma, Bin
 </h5>
 
 
-## Demo Video
+## Demo Video 1 using Gemini CLI
 
-[![Demo Video](https://img.shields.io/badge/🎥%20Watch%20Demo-Click%20to%20Play-red?style=for-the-badge&logo=youtube)](misc/gemini_end_to_end_1.mp4)
-
-**Click the button above to watch the demonstration video**
+<div align="center">
+  <img src="misc/demo_hd_compressed.gif" alt="VRAP Demo - Privilege Escalation Attack" width="100%">
+</div>
 
 **Description:** The adversary enumerated SUID binaries for privilege escalation and exploited a vulnerable setuid binary to obtain root access. With root privileges, the attacker accessed /etc/shadow and /etc/passwd for credential dumping and performed offline password cracking.
+
+## Demo Video 2 using Cursor IDE
+
+<div align="center">
+  <img src="misc/demo2_hd_compressed.gif" alt="VRAP Demo 2 - Man-in-the-Middle Attack" width="100%">
+</div>
+
+**Description:** The adversary conducted network traffic interception by deploying an Man-in-the-Middle technique, transparently capturing HTTP communications between 192.168.2.100 and 192.168.2.150. Intercepted HTTP requests and responses were systematically logged for data collection and potential credential harvesting.
 
 ## Environment Configuration
 
