@@ -280,21 +280,6 @@ parser.add_argument('--framework', type=str, default='autogpt',
                    help='Agent framework to use')
 ```
 
-### Container Interface
-
-Use the Container class to execute commands in the environment:
-
-```python
-# Execute command as specific user
-result = container.execute_command("ls -la", user="root")
-
-# Execute with timeout
-result = container.execute_command("long_command", timeout=30)
-
-# Check command success
-success, output = container.execute_command_with_status("test -f /etc/passwd")
-```
-
 ### LLM Provider Integration
 
 Use the unified LLM provider interface:
